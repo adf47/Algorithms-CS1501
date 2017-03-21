@@ -1,0 +1,56 @@
+========================================
+CS/COE 1501 Assignment Information Sheet
+----------------------------------------
+
+You must submit an information sheet with every assignment.  Also be sure
+to submit all materials following the procedures described on the
+submission procedures page.
+
+Name: Antonino Febbraro
+
+Lecture section:  Tuesday/Thursday 2:30 PM - 3:45 PM
+
+Recitation day and time:  Thursdays 11:00 AM
+
+Assignment #:  Project 4
+
+Program due date:  November 18, 2016
+
+Handed in date:  November 16, 2016
+
+Source code file name(s): 
+
+Airline.java, Node.java, Union.java, and Edge.java
+
+
+
+
+
+
+Other file name(s) (if relevant):
+
+
+
+
+
+
+
+Does your program run without error?: Yes
+
+If not, what is/are the error(s) and which parts of your program run
+correctly?:
+
+
+
+
+
+
+
+Additional comments to the grader:
+
+
+
+
+
+
+

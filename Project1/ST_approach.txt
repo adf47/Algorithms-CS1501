@@ -1,0 +1,5 @@
+The approach I took in implementing my symbol table was implementing a DLB trie with the key being the characters of the password and the 
+value being the time it took to crack that password. I chose to do this because I could justify knowing that my look up run time and 
+adding run time to the Symbol table would be a constant time of the height or length of the word being added. In this case the passwords, 
+which were only 5 characters long, will cause the run time will be no greater the O(5) constant time. Therefore, this justified me being a
+ble to implement the symbol table in this way so that I could quickly search for valid passwords. 

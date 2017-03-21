@@ -1,0 +1,36 @@
+Antonino Febbraro 
+CS 1501 -- Project 3 
+Due November 3, 2016
+documentation.txt
+
+	For this project I was able to use a heap with indirection pretty easily for the most part.
+I was able to use the implementation we described in class for every part of the project except
+the requirement to find maximum/minimum apartment by city. What I mean by implementation 
+described in class is an array based one with constant find(Pop), and logarithmic add,
+remove and update methods. 
+
+	The PriorityQue.java data structure contains two array heap based priority queues, and
+one hashmap data structure(From the java api). The two array based heaps are to store the 
+priority queue for minimum price and maximum square foot apartments. I chose to do this 
+so that the retrieval of maximum and minimum values would be constant, so the memory over head
+of two heaps did not concern me. Also, the use of the hashmap, while it too is another additional
+memory over head, it is justified because the hashmap stores the indexes of where each apartment
+is in the minimum and maximum heap. This helps with the removal of an apartment and updating of an
+apartment, because I can then quickly get an index where the apartment needed to be removed 
+or updated is so that I could keep the removal and update of any apartment to still be logarithmic! 
+While this is a memory over head of basically three copies of every apartment added in, this 
+is justified because it keeps the run-time efficient and the same as normal heap 
+operations(logarithmic for update and remove and update and constant for retrievals of maximum and minimum).
+
+	The only place in the project where I sacrificed run-time for memory over head was when building
+the find maximum/minimum apartment by city. When doing this function, I sacrificed run-time in that the 
+run-time to do this operation is linearithmic (n log n). The reason I did not choose to do this
+part with indirection is because do to that you would need another array of cities in which at
+each city(an index in an array) you would store a minimum/maximum heap. While this would make 
+finding a maximum/minimum apartment by city practically constant, it would have a HUGE memory 
+over head especially once the number of apartments grow to become very large. This would be
+a memory over head of n^2(n cities (as indexes) and n heaps for each city). Additionally, 
+this adds multiple more heaps to reheap on updates and removals and adding. So, therefore I justify 
+not doing this approach to save on the memory over head and the reheaping cost. So I implemented
+my find maximum/minimum apartment by city method to pop and reheap the heap until you pop off
+an apartment in the entered city. For a run-time of n log n.  

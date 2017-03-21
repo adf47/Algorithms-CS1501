@@ -1,0 +1,90 @@
+Results
+
+
+File Name 	Original Size	Compression Type	Compression Size	Ratio
+
+texts.tar	  1.4 MB	   LZW			    1 MB		 1.4
+		  1.4 MB	   MyLZW -n		    598 KB		 2.40 
+		  1.4 MB	   MyLZW -r		    590 KB		 2.43
+		  1.4 MB	   MyLZW -m		    598 KB		 2.40
+		  1.4 MB	   ZIP			    534 KB		 2.68	
+
+all.tar		  3 MB		   LZW			    1.8 MB		 1.66
+		  3 MB		   MyLZW -n		    1.8 MB		 1.66
+		  3 MB		   MyLZW -r		    1.2 MB		 2.50
+		  3 MB		   MyLZW -m		    1.8 MB	  	 1.66
+		  3 MB		   ZIP			    970 KB		 3.17
+
+assig2.doc	  87 KB		   LZW			    75  KB		 1.16
+		  87 KB		   MyLZW -n		    40  KB		 2.18
+		  87 KB		   MyLZW -r		    40  KB		 2.18
+		  87 KB		   MyLZW -m		    40  KB		 2.18
+		  87 KB		   ZIP			    24  KB		 3.63
+
+bmps.tar	  1.1 MB	   LZW			    925 KB		 1.22
+		  1.1 MB	   MyLZW -n		    81  KB		 13.91
+		  1.1 MB	   MyLZW -r		    81  KB		 13.91
+		  1.1 MB	   MyLZW -m		    81  KB		 13.91
+		  1.1 MB	   ZIP		      	    64  KB		 17.60
+
+code.txt	  72  KB	   LZW			    31  KB		 2.32
+		  72  KB	   MyLZW -n		    25  KB		 2.88
+		  72  KB	   MyLZW -r		    25  KB		 2.88
+		  72  KB	   MyLZW -m		    25  KB		 2.88
+		  72  KB	   ZIP			    16  KB		 4.50
+	
+edit.exe	  236 KB	   LZW			    251 KB		 0.94
+		  236 KB	   MyLZW -n		    156 KB		 1.51
+		  236 KB	   MyLZW -r		    152 KB		 1.51
+		  236 KB	   MyLZW -m		    156 KB		 1.51
+		  236 KB	   ZIP			    127 KB		 1.86
+
+lego-big.gif	  93  KB	   LZW			    129 KB		 0.72
+		  93  KB	   MyLZW -n		    122 KB		 0.76
+		  93  KB	   MyLZW -r		    122 KB		 0.76
+		  93  KB	   MyLZW -m		    122 KB		 0.76
+		  93  KB	   ZIP			    93  KB		 1.00
+
+code2.txt	  58  KB	   LZW			    24  KB		 2.42
+		  58  KB	   MyLZW -n		    21  KB		 2.76
+		  58  KB	   MyLZW -r		    21  KB		 2.76
+		  58  KB	   MyLZW -m		    21  KB		 2.76
+		  58  KB	   ZIP			    14  KB		 4.14
+
+frosty.jpg	  127 KB	   LZW			    177 KB		 0.72
+		  127 KB	   MyLZW -n		    164 KB		 0.77
+		  127 KB	   MyLZW -r		    171 KB		 0.74
+		  127 KB	   MyLZW -m		    164 KB 		 0.77
+		  127 KB	   ZIP			    127 KB		 1.00
+
+gone_fishing	  17  KB	   LZW			    9   KB		 1.89
+	.bmp	  17  KB	   MyLZW -n		    9   KB		 1.89
+		  17  KB	   MyLZW -r		    9   KB		 1.89
+		  17  KB	   MyLZW -m		    9   KB		 1.89
+		  17  KB	   ZIP			    9   KB		 1.89
+
+large.txt	  1.2 MB	   LZW			    605 KB		 2.03
+		  1.2 MB	   MyLZW -n		    502 KB		 2.45
+		  1.2 MB	   MyLZW -r		    527 KB		 2.33
+		  1.2 MB	   MyLZW -m		    502 KB		 2.45
+		  1.2 MB	   ZIP			    494 KB		 2.49
+
+medium.txt	  25  KB	   LZW			    13  KB		 1.92
+		  25  KB	   MyLZW -n		    13  KB		 1.92
+		  25  KB	   MyLZW -r		    13  KB		 1.92
+		  25  KB	   MyLZW -m		    13  KB		 1.92
+		  25  KB	   ZIP			    12  KB		 2.08
+
+wacky.bmp	  922 KB	   LZW			    4   KB		 230.50
+		  922 KB	   MyLZW -n		    4   KB		 230.50
+		  922 KB	   MyLZW -r		    4   KB		 230.50
+		  922 KB	   MyLZW -m		    4   KB		 230.50
+		  922 KB	   ZIP			    4   KB		 230.50
+
+winnt256.bmp	  157 KB	   LZW			    159 KB		 0.98
+		  157 KB	   MyLZW -n		    63  KB		 2.49
+		  157 KB	   MyLZW -r		    63  KB		 2.49
+		  157 KB	   MyLZW -m		    63  KB		 2.49
+		  157 KB	   ZIP			    51  KB		 3.08
+
+
